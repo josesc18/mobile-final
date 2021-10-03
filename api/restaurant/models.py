@@ -17,7 +17,7 @@ class Product(models.Model):
     image = models.ImageField(upload_to="products/")
     price = models.DecimalField(max_digits=10, decimal_places=2)
     time = models.CharField(max_length=200)
-    category = ForeignKey(Category, on_delete=CASCADE)
+    category = ForeignKey(Category, related_name="products", on_delete=CASCADE)
     state = models.BooleanField(default=True)
 
     def __str__(self):
