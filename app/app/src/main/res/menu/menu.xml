@@ -5,11 +5,12 @@
         android:icon="@drawable/ic_home"
         android:title="Inicio" />
     <item
-        android:id="@+id/menu"
-        android:icon="@drawable/ic_menu"
-        android:title="Menu" />
-    <item
         android:id="@+id/pedido"
         android:icon="@drawable/ic_pedido"
         android:title="Pedido" />
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Salir" />
+
 </menu>
